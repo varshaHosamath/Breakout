@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uidesign.vxh150530sxg143630.breakout" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/breakout_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".BreakOutActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EnterHighScoreActivity"
+            android:label="@string/title_activity_enter_high_score"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".LeaderBoardActivity"
+            android:label="@string/title_activity_leader_board"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest>
